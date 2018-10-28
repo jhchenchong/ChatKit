@@ -1,0 +1,7 @@
+XKTemplateProject.xcodeproj/xcuserdata/
+XKTemplateProject.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+XKTemplateProject.xcodeproj/project.xcworkspace/xcuserdata/
