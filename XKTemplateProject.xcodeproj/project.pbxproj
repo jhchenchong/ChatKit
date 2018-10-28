@@ -14,6 +14,7 @@
 		B72CCB352185BA060081D01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72CCB332185BA060081D01B /* LaunchScreen.storyboard */; };
 		B72CCB382185BA060081D01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72CCB372185BA060081D01B /* main.m */; };
 		B72CCB422185BB3A0081D01B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72CCB402185BB3A0081D01B /* ViewController.m */; };
+		B72CCB452185BCF10081D01B /* XKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72CCB442185BCF10081D01B /* XKViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		B72CCB372185BA060081D01B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B72CCB402185BB3A0081D01B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B72CCB412185BB3A0081D01B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B72CCB432185BCF10081D01B /* XKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKViewController.h; sourceTree = "<group>"; };
+		B72CCB442185BCF10081D01B /* XKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKViewController.m; sourceTree = "<group>"; };
 		CEE080A8DE8F27168C2BA160 /* libPods-XKTemplateProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKTemplateProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -98,6 +101,8 @@
 		B72CCB3E2185BB2A0081D01B /* XKTemplateProject */ = {
 			isa = PBXGroup;
 			children = (
+				B72CCB432185BCF10081D01B /* XKViewController.h */,
+				B72CCB442185BCF10081D01B /* XKViewController.m */,
 			);
 			path = XKTemplateProject;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				B72CCB422185BB3A0081D01B /* ViewController.m in Sources */,
 				B72CCB382185BA060081D01B /* main.m in Sources */,
 				B72CCB2A2185BA050081D01B /* AppDelegate.m in Sources */,
+				B72CCB452185BCF10081D01B /* XKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

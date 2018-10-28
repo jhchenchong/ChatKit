@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XKTemplateProject"
-  s.version      = "2"
+  s.version      = "3"
   s.summary      = "XKTemplateProject."
 
   # This description is used to generate tags and improve search results.
@@ -129,6 +129,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency 
+    s.dependency "CTMediator"
 
 end
