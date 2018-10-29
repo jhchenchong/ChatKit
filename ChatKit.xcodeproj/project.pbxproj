@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		990EE2212EAA1C72453DF10A /* libPods-XKTemplateProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE080A8DE8F27168C2BA160 /* libPods-XKTemplateProject.a */; };
+		990EE2212EAA1C72453DF10A /* libPods-ChatKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE080A8DE8F27168C2BA160 /* libPods-ChatKit.a */; };
 		B72CCB2A2185BA050081D01B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B72CCB292185BA050081D01B /* AppDelegate.m */; };
 		B72CCB302185BA050081D01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72CCB2E2185BA050081D01B /* Main.storyboard */; };
 		B72CCB322185BA060081D01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72CCB312185BA060081D01B /* Assets.xcassets */; };
@@ -18,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		720874C91FB527357375C261 /* Pods-XKTemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKTemplateProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKTemplateProject/Pods-XKTemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
-		AA0AB993D15966931F9F6AE2 /* Pods-XKTemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKTemplateProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKTemplateProject/Pods-XKTemplateProject.release.xcconfig"; sourceTree = "<group>"; };
-		B72CCB252185BA050081D01B /* XKTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		720874C91FB527357375C261 /* Pods-ChatKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKit/Pods-ChatKit.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0AB993D15966931F9F6AE2 /* Pods-ChatKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKit/Pods-ChatKit.release.xcconfig"; sourceTree = "<group>"; };
+		B72CCB252185BA050081D01B /* ChatKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72CCB282185BA050081D01B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B72CCB292185BA050081D01B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B72CCB2F2185BA050081D01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,7 +32,7 @@
 		B72CCB412185BB3A0081D01B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B72CCB432185BCF10081D01B /* XKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKViewController.h; sourceTree = "<group>"; };
 		B72CCB442185BCF10081D01B /* XKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKViewController.m; sourceTree = "<group>"; };
-		CEE080A8DE8F27168C2BA160 /* libPods-XKTemplateProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKTemplateProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE080A8DE8F27168C2BA160 /* libPods-ChatKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				990EE2212EAA1C72453DF10A /* libPods-XKTemplateProject.a in Frameworks */,
+				990EE2212EAA1C72453DF10A /* libPods-ChatKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,8 +50,8 @@
 		96AC93A1B0470A1E974CF336 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				720874C91FB527357375C261 /* Pods-XKTemplateProject.debug.xcconfig */,
-				AA0AB993D15966931F9F6AE2 /* Pods-XKTemplateProject.release.xcconfig */,
+				720874C91FB527357375C261 /* Pods-ChatKit.debug.xcconfig */,
+				AA0AB993D15966931F9F6AE2 /* Pods-ChatKit.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 		A8902A4BC705B1E2EFB72ECE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEE080A8DE8F27168C2BA160 /* libPods-XKTemplateProject.a */,
+				CEE080A8DE8F27168C2BA160 /* libPods-ChatKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,7 +67,7 @@
 		B72CCB1C2185BA050081D01B = {
 			isa = PBXGroup;
 			children = (
-				B72CCB272185BA050081D01B /* XKTemplateProject */,
+				B72CCB272185BA050081D01B /* ChatKit */,
 				B72CCB262185BA050081D01B /* Products */,
 				96AC93A1B0470A1E974CF336 /* Pods */,
 				A8902A4BC705B1E2EFB72ECE /* Frameworks */,
@@ -77,16 +77,16 @@
 		B72CCB262185BA050081D01B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B72CCB252185BA050081D01B /* XKTemplateProject.app */,
+				B72CCB252185BA050081D01B /* ChatKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B72CCB272185BA050081D01B /* XKTemplateProject */ = {
+		B72CCB272185BA050081D01B /* ChatKit */ = {
 			isa = PBXGroup;
 			children = (
 				B72CCB3F2185BB3A0081D01B /* Demo */,
-				B72CCB3E2185BB2A0081D01B /* XKTemplateProject */,
+				B72CCB3E2185BB2A0081D01B /* ChatKit */,
 				B72CCB282185BA050081D01B /* AppDelegate.h */,
 				B72CCB292185BA050081D01B /* AppDelegate.m */,
 				B72CCB2E2185BA050081D01B /* Main.storyboard */,
@@ -95,16 +95,16 @@
 				B72CCB362185BA060081D01B /* Info.plist */,
 				B72CCB372185BA060081D01B /* main.m */,
 			);
-			path = XKTemplateProject;
+			path = ChatKit;
 			sourceTree = "<group>";
 		};
-		B72CCB3E2185BB2A0081D01B /* XKTemplateProject */ = {
+		B72CCB3E2185BB2A0081D01B /* ChatKit */ = {
 			isa = PBXGroup;
 			children = (
 				B72CCB432185BCF10081D01B /* XKViewController.h */,
 				B72CCB442185BCF10081D01B /* XKViewController.m */,
 			);
-			path = XKTemplateProject;
+			path = ChatKit;
 			sourceTree = "<group>";
 		};
 		B72CCB3F2185BB3A0081D01B /* Demo */ = {
@@ -119,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B72CCB242185BA050081D01B /* XKTemplateProject */ = {
+		B72CCB242185BA050081D01B /* ChatKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B72CCB3B2185BA060081D01B /* Build configuration list for PBXNativeTarget "XKTemplateProject" */;
+			buildConfigurationList = B72CCB3B2185BA060081D01B /* Build configuration list for PBXNativeTarget "ChatKit" */;
 			buildPhases = (
 				6E3EA591A21551D5424E3CD1 /* [CP] Check Pods Manifest.lock */,
 				B72CCB212185BA050081D01B /* Sources */,
@@ -132,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = XKTemplateProject;
-			productName = XKTemplateProject;
-			productReference = B72CCB252185BA050081D01B /* XKTemplateProject.app */;
+			name = ChatKit;
+			productName = ChatKit;
+			productReference = B72CCB252185BA050081D01B /* ChatKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B72CCB202185BA050081D01B /* Build configuration list for PBXProject "XKTemplateProject" */;
+			buildConfigurationList = B72CCB202185BA050081D01B /* Build configuration list for PBXProject "ChatKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B72CCB242185BA050081D01B /* XKTemplateProject */,
+				B72CCB242185BA050081D01B /* ChatKit */,
 			);
 		};
 /* End PBXProject section */
@@ -194,7 +194,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XKTemplateProject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ChatKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -351,16 +351,16 @@
 		};
 		B72CCB3C2185BA060081D01B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 720874C91FB527357375C261 /* Pods-XKTemplateProject.debug.xcconfig */;
+			baseConfigurationReference = 720874C91FB527357375C261 /* Pods-ChatKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XKTemplateProject/Info.plist;
+				INFOPLIST_FILE = ChatKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.XKTemplateProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ChatKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,16 +368,16 @@
 		};
 		B72CCB3D2185BA060081D01B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA0AB993D15966931F9F6AE2 /* Pods-XKTemplateProject.release.xcconfig */;
+			baseConfigurationReference = AA0AB993D15966931F9F6AE2 /* Pods-ChatKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XKTemplateProject/Info.plist;
+				INFOPLIST_FILE = ChatKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.XKTemplateProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ChatKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,7 +386,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B72CCB202185BA050081D01B /* Build configuration list for PBXProject "XKTemplateProject" */ = {
+		B72CCB202185BA050081D01B /* Build configuration list for PBXProject "ChatKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B72CCB392185BA060081D01B /* Debug */,
@@ -395,7 +395,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B72CCB3B2185BA060081D01B /* Build configuration list for PBXNativeTarget "XKTemplateProject" */ = {
+		B72CCB3B2185BA060081D01B /* Build configuration list for PBXNativeTarget "ChatKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B72CCB3C2185BA060081D01B /* Debug */,

@@ -1,1 +1,1 @@
-pod "XKTemplateProject"
+pod "ChatKit"
